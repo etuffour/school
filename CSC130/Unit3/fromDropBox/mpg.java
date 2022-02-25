@@ -38,7 +38,7 @@ public class mpg{
 		 
 		// start the output
 		System.out.println("----------------------------------------------------------------------");
-		System.out.println("With gass at $" + gasPrice + " per gallon, going 100 miles will cost you $" + (gasPrice * 100) );
+		System.out.println("With gass at $" + gasPrice + " per gallon, going 100 miles will cost you $" + (gasPrice * (100/mpg) ));
 		System.out.println("----------------------------------------------------------------------");
 		System.out.println("Since your car's efficiency is " + mpg + " mpg and given that you have " +  inTheTank + " gallons in the tank, by my calculations you can go " + (int)(mpg * inTheTank) + " miles before you run out of gas.");
 		System.out.println("----------------------------------------------------------------------"); 
